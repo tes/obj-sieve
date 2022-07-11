@@ -10,8 +10,14 @@
     "precommit": "npm run lint",
     "prepush": "npm run test"
   },
+  "publishConfig": {
+    "registry": "https://npm.tescloud.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tes/obj-sieve.git"
+  },
   "keyword": [],
-  "repository": "git@github.com:sithmel/obj-sieve.git",
   "author": "Maurizio Lupo <maurizio.lupo@gmail.com>",
   "license": "MIT",
   "dependencies": {
